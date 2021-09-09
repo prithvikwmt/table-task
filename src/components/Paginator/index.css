@@ -1,0 +1,75 @@
+.pagination-container{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.pagination-item-container {
+    display: flex;
+    list-style-type: none;
+}
+  
+ .pagination-item {
+      padding: 0 12px;
+      height: 32px;
+      text-align: center;
+      margin: auto 4px;
+      display: flex;
+      box-sizing: border-box;
+      align-items: center;
+      min-width: 32px;
+      cursor: pointer;
+ }
+
+ .active{
+    background-color: #0283ff;
+    color: #fff;
+    font-weight: 500;
+ }
+
+ .goto-container{
+      margin-top: 12px;
+ }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.goto-text{
+   color: rgba(137,151,167);
+}
+
+.goto-input{
+   margin: 0 16px;
+   padding: 8px;
+   background-color: #ecf2f9;
+   font-weight: 600;
+   font-size: 18px;
+   border-radius: 5px;
+   border: 1px solid rgba(137,151,167,0.2) ;
+}
+
+.goto-input:focus {
+     border: 1px solid rgba(137,151,167,0.2) ;
+ }
+ 
+ .goto-input:focus-visible {
+     border: 1px solid rgba(137,151,167,0.2) ;
+     outline: none;
+ }
+
+.btn-go{
+  background-color: #0283ff;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  margin-right: 16px;
+  border-radius: 3px;
+  padding: 12px;
+}
